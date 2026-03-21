@@ -1,0 +1,72 @@
+*{
+    bg: #1A1A1DCC;
+    transparent: #ffffff00;
+    fg: #3B1C32;
+    selected: #6A1E55;
+    text: #A64D79;
+    text-2: #7c4c64;
+    border: #3B1C32;
+    background-color: @bg;
+    border-color: @border;
+}
+prompt{
+    text-color: @selected;
+}
+entry{
+    placeholder: "Ask away";
+    cursor: "pointer";
+    text-color: @text-2;
+}
+window{
+    width: 45%;
+    border: 3;
+    padding: 20;
+}
+
+/*element*/
+element{
+    children: [element-icon,element-text];
+    text-color: #ffffff;
+    background-color: @transparent;
+}
+element selected{
+    background-color: @text-2;
+    background-transperancy: 0.7;
+}
+element-icon{
+    size: 1.5em;
+    padding: 0px 10px 0px 0px;
+    background-color: @transparent;
+}
+element-text{
+    text-color: #ffffff;
+    highlight: @selected;
+    background-color: @transparent;
+}
+
+mainbox{
+    border: 0;
+    padding: 0;
+    background-color: @transparent;
+}
+
+listview {
+    fixed-height: 0;
+    spacing:      5px ;
+    scrollbar:    false;
+    padding:      2px 2px 2px 2px ;
+    columns: 1;
+    lines: 10;
+    scrollbar: "disabled"; 
+    selected-color: @text;
+    background-color: @transparent;
+}
+inputbar {
+    children: [prompt,entry];
+    border: 0px 0px 2px 0px;
+    size: 1.5em;
+    background-color: @fg;
+}
+prompt{
+    enabled: true;
+}
