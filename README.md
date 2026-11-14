@@ -19,11 +19,10 @@ My personal Linux desktop configuration, built around the [niri](https://github.
 
 ```
 Dotfiles/
-├── niri/            # niri config (KDL): keybindings, layout, window rules
-├── noctalia/        # Noctalia Shell settings and theme
-├── [terminal]/      # terminal config
-├── scripts/         # helper scripts
-└── screenshots/
+├── Niri/            # niri config (KDL): keybindings, layout, window rules      # Noctalia Shell settings and theme
+├── Kitty/      # terminal config
+├── fastfetch #fastfetch configuration
+├── rofi # rofi themeing and configuration
 ```
 
 ## Highlights
