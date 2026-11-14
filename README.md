@@ -9,11 +9,11 @@ My personal Linux desktop configuration, built around the [niri](https://github.
 |---|---|
 | Compositor | niri |
 | Shell (bar, launcher, notifications) | Noctalia Shell |
-| Terminal | [kitty] |
-| Shell | [zsh] |
-| Editor | [vim VS Codium] |
-| Fonts | [JetBrains-Mono-Nerd-fonts] |
-| Distro | [Fedora]|
+| Terminal | kitty |
+| Shell | zsh |
+| Editor | vim, VS Codium |
+| Fonts | JetBrains-Mono-Nerd-fonts |
+| Distro | Fedora|
 
 ## Repository structure
 
@@ -62,14 +62,13 @@ Dotfiles/
 
 ## Notes
 
-- Tested on [Fedora 44].
+- Tested on Fedora 44.
 - Some paths and keybindings are specific to my hardware (e.g. [monitor, keyboard layout]). Adjust them for your setup.
 
 ## Credits
 
 - [niri](https://github.com/YaLTeR/niri) by YaLTeR
 - [Noctalia Shell](https://github.com/noctalia-dev/noctalia-shell)
-- [Any configs or wallpapers you borrowed from]
 
 ## License
 
